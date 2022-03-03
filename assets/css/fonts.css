@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'MarvelRegular';
+  src: url('../fonts/MarvelRegular.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Variablet_wdth_wght.woff2') format('woff2-variations');
+  font-weight: 300 800;
+	font-stretch: 75 100;
+  font-display: swap;
+}
+
+h1 {
+  font-family: var(--font-marvelregular);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3rem;
+}
+
+p {
+  font-family: var(--font-opensans);
+}

@@ -1,0 +1,19 @@
+.c-header {
+  background-color: var(--color-black);
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.c-header__heading {
+  margin: 0;
+  color: var(--color-white-true);
+}
+
+@media (max-width: 768px) {
+  .c-header__heading {
+    text-align: center;
+  }
+}

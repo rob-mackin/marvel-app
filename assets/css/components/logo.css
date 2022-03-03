@@ -1,0 +1,10 @@
+.c-logo {
+  background-color: var(--color-red);
+  color: var(--color-white-true);
+  padding: 0.6rem 0.75rem 0;
+  display: inline-block;
+  font-family: var(--font-marvelregular);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 3rem;
+}

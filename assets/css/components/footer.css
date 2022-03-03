@@ -1,0 +1,38 @@
+.c-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-black);
+  padding: 1rem;
+}
+
+.c-footer p {
+  color: var(--color-white-true);
+}
+
+.c-footer__copy {
+  margin: 0;
+}
+
+@media (min-width: 401px) {
+  .c-footer__copy {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .c-footer__copy {
+    font-size: 0.7rem;
+  }
+}
+
+.c-footer__copy a {
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.c-footer__copy a:hover,
+.c-footer__copy a:focus {
+  color: var(--color-red);
+}

@@ -1,0 +1,93 @@
+.c-character-card {
+  padding: 1rem;
+  border-radius: 5px;
+  background: inherit;
+  background: rgba(000, 000, 000, 0.75);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.1px);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 481px) {
+  .c-character-card {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .c-character-card:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+}
+
+.c-character-card__heading {
+  text-align: center;
+  color: var(--color-white);
+  font-family: var(--font-marvelregular);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.c-character-card__image {
+  position: relative;
+  aspect-ratio: 1.15;
+}
+
+.c-character-card__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-character-card__details {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.c-character-card__links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-character-card__link {
+  text-transform: uppercase;
+  font-family: var(--font-marvelregular);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.c-character-card__link a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.c-character-card__link a:hover,
+.c-character-card__link a:focus {
+  color: var(--color-red);
+}
+
+.c-character-card__divider {
+  margin: 0 0.5rem 0.25rem;
+  font-size: 1.5rem;
+}
+
+.c-character-card__divider:last-of-type {
+  display: none;
+}

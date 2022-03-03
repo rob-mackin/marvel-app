@@ -1,0 +1,12 @@
+:root {
+  /* Colors */
+  --color-black: #333;
+  --color-black-true: #000;
+  --color-red: red;
+  --color-white-true: #eee;
+  --color-white: #fff;
+
+  /* Fonts */
+  --font-marvelregular: 'MarvelRegular', sans-serif;
+  --font-opensans: 'OpenSans', sans-serif;
+}

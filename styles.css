@@ -1,0 +1,45 @@
+/* Global styles */
+@import url('assets/css/normalise.css');
+@import url('assets/css/variables.css');
+@import url('assets/css/fonts.css');
+
+/* Components */
+@import url('assets/css/components/characters.css');
+@import url('assets/css/components/character-card.css');
+@import url('assets/css/components/footer.css');
+@import url('assets/css/components/header.css');
+@import url('assets/css/components/logo.css');
+
+/* Fix header / footer, scroll main div */
+body {
+  overflow: hidden;
+}
+
+body header {
+  height: 100px;
+}
+
+body main {
+  margin-top: 100px;
+  height: calc(100vh - 150px);
+  overflow-y: scroll;
+
+  background-image: url('./assets/images/marvel-background.jpg');
+  background-size: cover;
+}
+
+@media (min-width: 481px) {
+  body main {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body main {
+    padding: 1rem;
+  }
+}
+
+body footer {
+  height: 50px;
+}
