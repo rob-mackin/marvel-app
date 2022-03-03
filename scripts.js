@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     scrollTimer = null
     // If the main app container is scrolled to the bottom, add 16 to the offset and load more characters
     if (mainEl.offsetHeight + mainEl.scrollTop >= (mainEl.scrollHeight - 200)) {
-      console.log('loading');
       offset = offset + 16
 
       // ToDo: Add some form of loading spinner
