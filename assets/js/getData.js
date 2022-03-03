@@ -1,4 +1,4 @@
-import MD5 from '../../node_modules/md5-es/src/md5.js';
+import MD5 from './md5.js';
 
 /*
   Function to get and return api data:
