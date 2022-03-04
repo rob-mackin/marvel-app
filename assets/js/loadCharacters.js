@@ -11,5 +11,5 @@ export default async function loadCharacters(offset) {
   // Loop through returned characters and render them
   characterData.forEach(character => {
     charactersEl.appendChild(renderCharacterCard(character))
-  });
+  })
 }
