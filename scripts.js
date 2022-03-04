@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const mainEl = document.querySelector('.js-main')
   let offset = 0
 
-  loadCharacters(offset);
+  loadCharacters(offset)
 
   let scrollTimer = null
   mainEl.addEventListener('scroll', () => {
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       offset = offset + 16
 
       // ToDo: Add some form of loading spinner
-      loadCharacters(offset);
+      loadCharacters(offset)
     }
   }
 })
