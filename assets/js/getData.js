@@ -21,7 +21,7 @@ export default async function getData(endpoint, limit, offset) {
 
   // Return with console error if bad response
   if (!apiResponse.ok) {
-    console.error('Failed to retreive data')
+    console.error('Failed to retrieve data')
     return
   }
 
