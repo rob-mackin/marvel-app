@@ -9,7 +9,7 @@
   font-family: 'OpenSans';
   src: url('../fonts/OpenSans-Variablet_wdth_wght.woff2') format('woff2-variations');
   font-weight: 300 800;
-	font-stretch: 75 100;
+  font-stretch: 75 100;
   font-display: swap;
 }
 
